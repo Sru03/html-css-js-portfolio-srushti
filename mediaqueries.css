@@ -1,0 +1,10 @@
+/* This line says when the screen size is les that 1200px the display-nav is set to none*/
+@media screen and (max-width: 1200px){
+    #desktop-nav{
+        display:none;
+    }
+
+    #hamburger-nav{
+        display:flex;
+    }
+}
