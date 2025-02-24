@@ -159,7 +159,7 @@ a:hover{
 
 section {
     padding-top: 4vh;
-     height: 96vh; /* together makes 100 96 +4 */
+    height: 96vh; /* together makes 100 96 +4 */
     margin: 0 10rem;  /*top and bottom 0 and 10 rem on the sides */
     box-sizing:border-box;
     min-height: fit-content;/*it ensures that things are not overlapping each other */
@@ -211,7 +211,7 @@ section {
 }
 
 .title{
-    font-size: 1.95rem;
+    font-size: 1.96rem;
     text-align: center;
     
 }
@@ -296,8 +296,55 @@ section {
 
 }
 
+/* ABOUT SECTION */
+.about{
+    position : relative;
+}
+
+.about-container{
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    flex-direction: row;
+}
+
+.about-details-conatiner{
+    justify-content: center;
+    flex-direction: column;
+}
+
 .section__pic_about-container img {
     border-radius: 10%;
 }
+
+.about-container,
+.about-details-container{
+    display: flex; 
+
+}
+
+.arrow{
+
+    position: absolute;
+    right: -5rem;
+    bottom:2.5rem;
+}
+
+.details-container{
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius:2rem;
+    border:rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    text-align:center;
+
+}
+
+.section-container{
+    gap:4rem;
+    height: 80%;
+}
+
 
 
